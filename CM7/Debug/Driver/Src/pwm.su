@@ -1,0 +1,2 @@
+../Driver/Src/pwm.c:11:6:Pwm_init	16	static
+../Driver/Src/pwm.c:56:6:PWM_Setdutycycle	16	static

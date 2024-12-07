@@ -1,0 +1,2 @@
+../Driver/Src/Encoder.c:12:6:Encoder_init	16	static
+../Driver/Src/Encoder.c:57:9:GetValueEncoder	16	static

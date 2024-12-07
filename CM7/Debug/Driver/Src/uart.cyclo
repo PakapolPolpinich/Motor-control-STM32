@@ -1,0 +1,3 @@
+../Driver/Src/uart.c:10:6:USART3_Init	1
+../Driver/Src/uart.c:33:6:USART3_SendChar	2
+../Driver/Src/uart.c:39:6:USART3_SendString	3
