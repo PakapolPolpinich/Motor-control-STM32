@@ -103,7 +103,7 @@ int main(){
 				Count[i].Pulse = GetValueEncoder(i+1);
 				Count[i].Vrpm = ChangetoRPM(Count[i].Pulse,i);
 			}
-			int32_t speedFL = PIDMOTOR(6800.0f,Count[0].Vrpm,100,&PIDControllers[0]);
+			int32_t speedFL = PIDMOTOR(5000.0f,Count[0].Vrpm,100,&PIDControllers[0]);
 			int32_t speedFR = PIDMOTOR(5000.0f,Count[1].Vrpm,100,&PIDControllers[1]);
 			rotateMotor(FRONT_LEFT_MOTOR,speedFL);
 			rotateMotor(FRONT_RIGHT_MOTOR,speedFR);
